@@ -23,12 +23,12 @@ This **Dockerfile** has been published as a [trusted build](https://index.docker
 
 #### 1. Run container and clone git repo into container
 
-    docker run -i -name docker_java7_maven jamesdbloom/docker_java7_maven
+    docker run -i -t -name docker_java7_maven -rm jamesdbloom/docker_java7_maven
 
     git clone <your repo url>
 
 #### 2. Run container with git repo attached container (from host OS)
 
-    docker run -i -name docker_java7_maven -v <your git repo directory>:/volume/git jamesdbloom/docker_java7_maven
+    docker run -i -t -name docker_java7_maven -rm -v <your git repo directory>:/volume/git jamesdbloom/docker_java7_maven
     
 <a href="http://blog.jamesdbloom.com">James D Bloom</a>
