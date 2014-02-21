@@ -30,3 +30,5 @@ This **Dockerfile** has been published as a [trusted build](https://index.docker
 #### 2. Run container with git repo attached container (from host OS)
 
     docker run -i -v <your git repo directory>:/volume/git jamesdbloom/docker_java7_maven
+    
+<a href="http://blog.jamesdbloom.com">James D Bloom</a>
