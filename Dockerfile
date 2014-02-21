@@ -7,6 +7,9 @@
 # pull base image.
 FROM dockerfile/java
 
+# maintainer details
+MAINTAINER James Bloom "jamesdbloom@gmail.com"
+
 # install maven
 RUN apt-get install -y maven
 
