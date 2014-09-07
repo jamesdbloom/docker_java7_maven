@@ -5,7 +5,7 @@
 #
 
 # pull base image.
-FROM java:7
+FROM dockerfile/java
 
 # maintainer details
 MAINTAINER James Bloom "jamesdbloom@gmail.com"
